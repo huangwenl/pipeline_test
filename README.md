@@ -1,0 +1,2 @@
+# pipeline_test
+测试pipeline在Jenkins中构建项目
