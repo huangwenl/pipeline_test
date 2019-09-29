@@ -8,7 +8,7 @@ pipeline {
 		stage('Build') {
 			steps {		//step必需的
 				echo 'Building....'
-				checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://gitee.com/roclli/4-declarative.git']]])\
+				checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/huangwenl/pipeline_test.git']]])\
 //				def username = 'Jenkins'
 //				echo 'Hello Mr. ${username}'
 //				echo "I said, Hello Mr. ${username}"
